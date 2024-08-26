@@ -1,0 +1,41 @@
+<?php
+session_start();
+if(isset($_SESSION['pin'])){
+	$name=$_SESSION['name'];
+	$email=$_SESSION['email'];
+	$mobile=$_SESSION['mobile'];
+	$pin=$_SESSION['pin'];
+	$password=$_SESSION['password'];
+	#echo'"'.$name.'"     "'.$email.'"    "'.$mobile.'"      "'.$pin.'"      "'.$password.'"';
+	if(isset($_POST['toppers'])){
+		header("location:toppers.php");
+	}
+	elseif(isset($_POST['attendence'])){
+		header("location:attendence.php");
+	}
+	elseif(isset($_POST['news'])){
+		header("location:news.php");
+	}
+	elseif(isset($_POST['feedback'])){
+		header("location:feedback.php");
+	}
+	elseif(isset($_POST['backlogs'])){
+		header("location:backlogs.php");
+	}
+	elseif(isset($_POST['papers'])){
+		header("location:papers.php");
+	}
+	elseif(isset($_POST['pdfs'])){
+		header("location:pdfs.php");
+	}
+	elseif(isset($_POST['home'])){
+		header("location:home.php");
+	}
+	elseif(isset($_POST['about'])){
+		header("location:about.php");
+	}
+	elseif(isset($_POST['contact'])){
+		header("location:contact.php");
+	}
+}
+?>
