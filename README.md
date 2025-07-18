@@ -81,6 +81,6 @@ This is a mini-college web portal for managing student results, built using PHP 
 
 Built by **Tharun Pandya**  
 - Email: ktharunpandya@gmail.com
-- LinkedIn : (https://linkedin.com/in/tharun-pandya-kodi)
+- LinkedIn : https://linkedin.com/in/tharun-pandya-kodi
 
 ---
